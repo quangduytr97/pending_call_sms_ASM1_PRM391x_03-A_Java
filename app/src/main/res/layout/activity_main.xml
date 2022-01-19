@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!---Thêm layout action bar home-->
+    <include layout="@layout/actionbar_home" />
+
+    <!---Thêm 3 nút là 3 chức năng chính của ứng dụng-->
+    <Button
+        android:id="@+id/btnMesseage"
+        android:layout_width="@dimen/btn_home_width"
+        android:layout_height="@dimen/btn_home_height"
+        android:layout_above="@+id/btnPhone"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/small_padding"
+        android:background="@drawable/shadow_button"
+        android:drawableLeft="@drawable/ic_message"
+        android:drawablePadding="@dimen/small_padding"
+        android:text="@string/message"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/big_textSize"
+        android:textColor="@color/white"
+        tools:ignore="RtlHardCoded,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="@dimen/btn_home_width"
+        android:layout_height="@dimen/btn_home_height"
+        android:layout_alignLeft="@+id/btnMesseage"
+        android:layout_alignRight="@+id/btnMesseage"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/shadow_button"
+        android:drawableLeft="@drawable/ic_call"
+        android:drawablePadding="@dimen/small_padding"
+        android:text="@string/phone"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/big_textSize"
+        android:textColor="@color/white"
+        tools:ignore="RtlHardCoded,RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="@dimen/btn_home_width"
+        android:layout_height="@dimen/btn_home_height"
+        android:layout_alignLeft="@+id/btnMesseage"
+        android:layout_alignRight="@+id/btnMesseage"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnPhone"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/shadow_button"
+        android:drawableLeft="@drawable/ic_alarm"
+        android:drawablePadding="@dimen/small_padding"
+        android:text="@string/alarm"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/big_textSize"
+        android:textColor="@color/white"
+        tools:ignore="RtlHardCoded,RtlSymmetry"/>
+
+</RelativeLayout>

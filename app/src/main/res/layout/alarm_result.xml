@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/big_padding">
+
+        <!-- Dòng chữ Wake up -->
+        <TextView
+            android:id="@+id/wakeup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wake_up"
+            android:textColor="@color/orange_700"
+            android:textSize="@dimen/xbig_textSize"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+
+        <!-- Nội dung báo thức -->
+        <TextView
+            android:id="@+id/alarmContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange_500"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_below="@id/wakeup"
+            android:layout_marginTop="@dimen/small_margin"/>
+
+        <!-- Nút Cancel -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_height"
+            android:layout_marginTop="@dimen/small_margin"
+            android:background="@drawable/shadow_button"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big_textSize"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

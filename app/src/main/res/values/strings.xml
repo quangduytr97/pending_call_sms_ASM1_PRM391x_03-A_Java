@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pending Acts</string>
+    <string name="message">Message</string>
+    <string name="phone">Phone</string>
+    <string name="alarm">Alarm</string>
+    <string name="sms">SMS</string>
+    <string name="sender">Sender</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="time">Time</string>
+    <string name="setup">Setup</string>
+    <string name="someone">Someone</string>
+    <string name="call_to">Call to...!</string>
+    <string name="set_alarm">Set Alarm !!!</string>
+    <string name="wake_up">Wake up !!!</string>
+    <string name="cancel">Cancel</string>
+</resources>

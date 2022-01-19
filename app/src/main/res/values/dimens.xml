@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawable_size">35dp</dimen>
+    <dimen name="shadow">3dp</dimen>
+    <dimen name="btn_home_width">180dp</dimen>
+    <dimen name="btn_home_height">65dp</dimen>
+    <dimen name="big_textSize">23sp</dimen>
+    <dimen name="xbig_textSize">45sp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="small_padding">10dp</dimen>
+    <dimen name="medium_padding">15dp</dimen>
+    <dimen name="big_padding">25dp</dimen>
+    <dimen name="small_height">50dp</dimen>
+    <dimen name="medium_height">60dp</dimen>
+    <dimen name="big_height">300dp</dimen>
+</resources>

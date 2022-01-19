@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow. -->
+    <item android:top="@dimen/shadow">
+        <shape>
+            <solid android:color="@color/gray_light" />
+        </shape>
+    </item>
+    <!-- Foreground. -->
+    <item android:bottom="@dimen/shadow" android:right="@dimen/shadow" android:left="@dimen/shadow">
+        <shape>
+            <solid android:color="@color/orange_700" />
+        </shape>
+    </item>
+</layer-list>

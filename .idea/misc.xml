@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/ic_alarm.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/ic_back.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/ic_call.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/ic_message.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/shadow.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/shadow_btn.xml" value="0.5" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/shadow_button.xml" value="0.2" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/drawable/styled_button.xml" value="0.1125" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout-v23/activity_sms.xml" value="0.1" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/actionbar_alarm.xml" value="0.15" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/actionbar_home.xml" value="0.18" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/actionbar_phone.xml" value="0.18" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/actionbar_sms.xml" value="0.25" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/activity_alarm.xml" value="0.1" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/activity_main.xml" value="0.5255681818181818" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/activity_phone.xml" value="0.15" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/activity_sms.xml" value="0.17290552584670232" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/alarm_result.xml" value="0.25" />
+        <entry key="..\:/LAPTRINH/Funix/CC2/LapTrinhDiDong/Assignment/PRM391x_ASM1_duytqFX11834/app/src/main/res/layout/test.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

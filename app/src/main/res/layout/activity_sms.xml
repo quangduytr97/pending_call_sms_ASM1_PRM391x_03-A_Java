@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--- Thêm layout action bar sms -->
+    <include
+        layout="@layout/actionbar_sms"
+        android:id="@+id/action_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_bar"
+        android:orientation="vertical"
+        android:padding="@dimen/medium_padding">
+
+        <!--- Hộp điền số điện thoại người nhận -->
+        <EditText
+            android:id="@+id/edtPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_height"
+            android:background="@color/orange_700"
+            android:drawablePadding="@dimen/small_padding"
+            android:gravity="center_vertical"
+            android:hint="@string/sender"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:paddingStart="@dimen/small_padding"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/big_textSize"
+            app:drawableStartCompat="@drawable/ic_call"
+            tools:ignore="RtlSymmetry" />
+
+        <!--- Hộp thoại -->
+        <EditText
+            android:id="@+id/edtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/big_height"
+            android:background="@color/orange_200"
+            android:gravity="top"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="@dimen/small_padding"
+            android:textColor="@color/orange_700"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <!--- Radio button chọn kiểu thời gian -->
+        <RadioGroup
+            android:id="@+id/rdgTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_height"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_margin"
+                android:buttonTint="@color/orange_700"
+                android:text="@string/hour"
+                android:textColor="@color/orange_700" />
+
+            <RadioButton
+                android:id="@+id/radioMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_margin"
+                android:buttonTint="@color/orange_700"
+                android:text="@string/minute"
+                android:textColor="@color/orange_700" />
+
+            <RadioButton
+                android:id="@+id/radioSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/small_margin"
+                android:buttonTint="@color/orange_700"
+                android:checked="true"
+                android:text="@string/second"
+                android:textColor="@color/orange_700" />
+        </RadioGroup>
+
+        <!-- Dòng nhập thời gian -->
+        <EditText
+            android:id="@+id/edtDelay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/small_height"
+            android:background="@color/gray_light"
+            android:drawablePadding="@dimen/small_padding"
+            android:gravity="center_vertical"
+            android:hint="@string/time"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:paddingStart="@dimen/small_padding"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/big_textSize"
+            app:drawableStartCompat="@drawable/ic_date"
+            app:drawableTint="@color/gray"
+            tools:ignore="RtlSymmetry" />
+
+        <!-- Nút Setup -->
+        <Button
+            android:id="@+id/btnSetup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_height"
+            android:layout_marginTop="@dimen/small_margin"
+            android:background="@drawable/shadow_button"
+            android:text="@string/setup"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big_textSize" />
+
+    </LinearLayout>
+
+</RelativeLayout>
